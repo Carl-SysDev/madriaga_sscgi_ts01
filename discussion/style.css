@@ -1,25 +1,23 @@
+/*CSS Reset*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*Google Fonts*/
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", serif;
 }
 
-/* nav {
-  padding: 0.8rem;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid gray;
-}
-
-.nav-bar {
+/*navbar*/
+.navbar {
+  list-style: none;
   padding: 10px 20px;
   margin: 0;
   display: flex;
   align-items: center;
-  background-color: #333;
+  background-color: #252525;
 }
 
 .nav-logo img {
@@ -29,71 +27,63 @@ body {
 
 .nav {
   margin: 0 15px;
-} */
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.nav a:hover {
+  background-color: gray;
+}
+
+/*Margin is best used when creating space between element
+    padding is best used when  creating an elements border and its content
+*/
 
 #intro {
+  /*create space between the contents of the intro section and it's border*/
   /* padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 2rem;
-  padding-bottom: 3rem; */
-
-  padding: 3rem 10% 3rem;
+    padding-right: 10%;
+    padding-top: 2rem;
+    padding-bottom: 3rem; */
+  padding: 2rem 10% 3rem;
   text-align: center;
 }
 
 .header {
+  text-align: center;
 }
 
 #intro button {
   color: white;
   font-weight: bold;
-  background-color: #333;
+  background-color: gray;
+  border-radius: 25px;
   font-size: 1rem;
   padding: 1rem;
-  border-radius: 25px;
 }
 
-.nav a {
-  color: white;
+#succeed-info {
+  padding: 2rem 10% 3rem;
+}
+#succeed-info h2 {
+  margin-bottom: 1rem;
+}
+#succeed-info h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#succeed-info .card {
   display: inline-block;
-  padding: 10px 5px;
-  text-decoration: none;
-  transition: background-color 0.3;
-}
-
-.nav-bar {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-}
-
-nav ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-.nav-logo img {
-  width: 50px;
-  height: auto;
-  margin-right: 20px;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li .wow {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-  color: #00bcd4;
+  vertical-align: top;
+  min-height: 175px;
+  width: 30%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
