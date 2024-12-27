@@ -109,3 +109,22 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+#pre-footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+#pre-footer p:hover {
+  color: #dbb9b9;
+  cursor: pointer;
+}
+
+footer {
+  padding: 0.7rem;
+}
+
+footer span {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
