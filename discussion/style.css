@@ -1,3 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: brown;
+  font-family: "Roboto", sans-serif;
+}
+
+/* nav {
+  padding: 0.8rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid gray;
+}
+
+.nav-bar {
+  padding: 10px 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background-color: #333;
+}
+
+.nav-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.nav {
+  margin: 0 15px;
+} */
+
+#intro {
+  /* padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2rem;
+  padding-bottom: 3rem; */
+
+  padding: 3rem 10% 3rem;
+  text-align: center;
+}
+
+.header {
+}
+
+#intro button {
+  color: white;
+  font-weight: bold;
+  background-color: #333;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.nav a {
+  color: white;
+  display: inline-block;
+  padding: 10px 5px;
+  text-decoration: none;
+  transition: background-color 0.3;
+}
+
+.nav-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-logo img {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li .wow {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
 }
