@@ -39,6 +39,7 @@ body {
 
 .nav a:hover {
   background-color: gray;
+  height: 10px;
 }
 
 /*Margin is best used when creating space between element
@@ -86,4 +87,25 @@ body {
   width: 30%;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+#pre-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 50px;
+  background-color: #252525;
+}
+
+#pre-footer div {
+  flex: 1 1 200px;
+  padding: 20px;
+}
+
+#pre-footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
